@@ -58,7 +58,8 @@ export default function RootLayout({
             (adsbygoogle = window.adsbygoogle || []).push({});
           `}
         </Script>
-      </head>
+        <meta name="google-site-verification" content="ohF9lUShchQvTlpRtH7L_s-Bgx9Omtv0c4I4p1ykiw8" />
+</head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <AnalyticsPageviewTracker />
         {children}
